@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 18%;
+    background-color: peachpuff;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.newsheading {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+h4 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+    padding: 10px 8px;
+    font-weight: bold;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px 8px;
+    outline: none;
+    margin: 0 0 10px 0;
+    background-color: transparent;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.registerbtn {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 20px;
+    background-color: coral;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.tobeviewed {
+    width: 100%;
+    height: 100%;
+}
+
+.displayform {
+    width: 100%;
+    height: 100%;
+}
+
+#btn {
+    border: none;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin: 0 20px;
+    background-color: coral;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    border-bottom: 1px solid rgba(37, 37, 37, 0.863);
+    width: 100%;
+    font-family: 'Segoe UI';
+}
+
+table th {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(192, 192, 192, 0.404);
+}
+
+td {
+    padding: 5px 2px;
+    font-size: 14px;
+}
+
+.headerrow {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    border-radius: 10px 10px 0 0;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcentering {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submitcentering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.division {
+    margin: 0 50px;
+}
+
+.tipslist li:hover {
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.fixing {
+    width: 10%;
+}
+
+.adminfix {
+    width: 30%;
+}
+
+#bigcenter {
+    width: 100%;
+    height: 100%;
+}
+
+#idscourse {
+    margin: 1px 2px;
+    padding: 10px 0;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    font-family: 'Segoe UI';
+    background-color: coral;
+    cursor: pointer;
+}
+
+#ids {
+    margin: 1px 0;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    font-family: 'Segoe UI';
+    background-color: coral;
+    cursor: pointer;
+}
+
+#username {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+
+#registrationform {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#listedform {
+    width: 100%;
+    margin: 0;
+}
+
+#listedform input {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 10px 8px;
+    font-family: 'Segoe UI';
+    text-align: left;
+    background-color: coral;
+    border: none;
+    font-size: 16px;
+}
+
+#listedform input:hover {
+    background-color: rgba(255, 127, 80, 0.705);
+}
+
+input {
+    display: block;
+    margin: 15px 0;
+    padding: 8px 10px;
+    font-weight: bold;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.lists {
+    padding: 10px 8px;
+    font-family: 'Segoe UI';
+}
+
+.tipslist {
+    list-style: none;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.tipslist li {
+    margin: 3px 0;
+}
+
+footer li {
+    list-style: none;
+    padding: 0 15px;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 2px 0;
+}
+
+footer li:hover {
+    background-color: transparent;
+    font-size: 14px;
+}
+
+li:hover {
+    background-color: rgb(255, 162, 128);
+}
+
+footer {
+    cursor: pointer;
+    height: 15vh;
+    background-color: rgb(253, 113, 62);
+    display: flex;
+    justify-content: space-around;
+}
+
+.bodycontainer {
+    display: flex;
+    height: 78vh;
+}
+
+.displayerror {
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: rgb(255, 120, 120);
+}
+
+#passerror {
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: rgb(255, 69, 69);
+}
+
+#inputsection {
+    width: 100%;
+}
+
+.logo {
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Lucida Sans';
+}
+
+.sublogo {
+    font-size: 10px;
+    text-align: right;
+    font-weight: normal;
+}
+
+.logodiv {
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 178, 114);
+}
+
+.communitycontainer {
+    padding: 10px 20px;
+    font-family: 'Segoe UI';
+    background-color: silver;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.communitytitle {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.communityheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.communityduration {
+    font-size: 13px;
+}
+
+.aboutimg {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.myimg {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgcontainer {
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px 0 5px;
+}
+
+.userdisplay {
+    display: flex;
+    align-items: center;
+}
+
+.lorem {
+    width: 85%;
+    background-color: rgb(247, 247, 247);
+}
+
+.welcome1 {
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder
+}
+
+.webname {
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(252, 178, 114);
+}
+
+.welcomeparagraph {
+    font-family: 'Segoe UI';
+    width: 80%;
+    text-align: justify;
+    margin: 25px 0;
+    line-height: 25px;
+}
+
+.aboutdetails {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.icondiv {
+    margin: 0 5px;
+}
+
+p {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    opacity: 0.9;
+    margin: 8px 0;
+}
+
+i {
+    width: 25px;
+}
+
+.mycontact {
+    width: 250px;
+}
